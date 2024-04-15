@@ -13,11 +13,26 @@ h1{
     color: #b3003b;
 }
 
-div {
+.top-section {
     background-color: #e68a00;
-    width: 500px;
 }
+
+.bottom-section {
+    background-color: #ffd699;
+    color: #b30059;
+}
+
+.intro {
+    color: #b30059;
+    font-size: 50px;
+
+}
+
 span {
     color: #cc0000;
     font-size: 40px;
+}
+
+#bottom-text {
+    background-color: aqua;
 }
