@@ -10,5 +10,14 @@ p {
 }
 h1{
     font-size: 70px;
-    color: #CCCC33;
+    color: #b3003b;
+}
+
+div {
+    background-color: #e68a00;
+    width: 500px;
+}
+span {
+    color: #cc0000;
+    font-size: 40px;
 }
