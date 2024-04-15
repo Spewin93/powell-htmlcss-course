@@ -27,10 +27,23 @@ h1{
     font-size: 50px;
 
 }
+/* the CSS box model */
 
-span {
-    color: #cc0000;
-    font-size: 40px;
+/* margin - empty space around my element*/
+/* Border - a border around an element*/
+/* Padding - empty space WITH background around my element*/
+/* ALL of these ADD on top of the width and height! */
+
+.box {
+    background-color: #b30059;
+    width: 300px;
+    margin: 50px;
+    border-width: 15px;
+    border-color: #e60000;
+    border-style: inset;
+    padding: 100px 50px 300px 25px; /*top, right, bottom, left. 
+    - 2 valuse (top & bottom) - (left & right)
+    - 3 valuse (top) - (left & right) - (bottom)*/
 }
 
 #bottom-text {
