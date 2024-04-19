@@ -2,8 +2,8 @@ body {
     background-color: #000;
     color: white;
     font-size: 21px;
+    background-image: url(../img/fancy-cushion.webp);
 }
-
 p {
     color: #FFCC00;
 
@@ -19,14 +19,14 @@ h1{
 
 .bottom-section {
     background-color: #ffd699;
-    color: #b30059;
+    color: #ba226e;
 }
 
-.intro {
+/* .intro { 
     color: #b30059;
     font-size: 50px;
 
-}
+}*/
 /* the CSS box model */
 
 /* margin - empty space around my element*/
@@ -44,8 +44,15 @@ h1{
     padding: 100px 50px 300px 25px; /*top, right, bottom, left. 
     - 2 valuse (top & bottom) - (left & right)
     - 3 valuse (top) - (left & right) - (bottom)*/
+    background-image: url(../img/ray.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.box-text{
+    color: rgb(214, 115, 115);
 }
 
+
 #bottom-text {
-    background-color: aqua;
+    background-color: rgb(255, 0, 0);
 }
