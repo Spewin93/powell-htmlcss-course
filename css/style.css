@@ -2,24 +2,37 @@ body {
     background-color: #000;
     color: white;
     font-size: 21px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     background-image: url(../img/fancy-cushion.webp);
 }
 p {
     color: #FFCC00;
+    margin-top: 0px;
+    margin-bottom: 10px;
 
 }
 h1{
     font-size: 70px;
     color: #b3003b;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .top-section {
     background-color: #e68a00;
+    margin-top: 0px;
 }
 
 .bottom-section {
     background-color: #ffd699;
     color: #ba226e;
+    line-height: 1.4;
+    font-style: oblique;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+
 }
 
 /* .intro { 
